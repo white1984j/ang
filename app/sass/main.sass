@@ -1,0 +1,635 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote
+  &:before, &:after
+    content: ''
+    content: none
+
+q
+  &:before, &:after
+    content: ''
+    content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.4em
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	background-color: #fff
+	input
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+
+a
+	font-family: 'Exo2-Bold'
+	color: $blue
+	transition: 0.2s
+	&:hover,
+	&:active
+		text-decoration: none
+
+.header
+	background-color: $light-blue
+	min-height: 75px
+
+.header__logo 
+	img
+		max-width: 100%
+
+.header__city
+	font-size: 12px
+	text-align: center
+
+.header__tel
+	a
+		font-size: 20px
+
+.header__menu
+	ul
+		display: flex;
+		justify-content: space-between
+	a
+		border-bottom: 1px solid $blue
+		font-size: 12px
+
+.main__menu
+	.container
+		position: relative
+	.main__menu-item-fixed
+		display: none
+
+.main__menu-list
+	ul
+		display: flex
+		justify-content: space-between
+		align-items: center
+		> li 
+			display: inline-block
+			padding-top: 20px
+			padding-bottom: 20px
+			position: relative
+			a
+				font-size: 12px
+				&:hover
+					color: #5b889d
+					border-bottom: 1px solid #5b889d
+			&:hover .main__menu-subitem
+				display: block
+	.main__menu-subitem
+		display: none
+		position: absolute
+		width: 250px
+		padding: 20px
+		background-color: #fff
+		left: -20px
+		z-index: 11
+		ul
+			display: block
+			> li 
+				padding-top: 15px
+				padding-bottom: 15px
+
+
+
+.main__menu-search
+	display: block
+	text-align: right
+	label
+		display: flex
+		font-size: 12px
+		color: black
+		font-family: 'Exo2-Bold'
+		justify-content: flex-end
+		align-items: center
+	input[type="text"]
+		max-width: 50px
+
+.search-opened
+	display: none
+	input[type="text"]
+		max-width: 45px
+	input[type="submit"]
+		cursor: pointer
+		display: inline-block
+		position: relative
+		top: 4px
+		width: 15px
+		height: 15px
+		background: url(../img/icons/search.png) no-repeat center
+		border: none
+
+.search__block
+	display: none
+	position: absolute
+	background: white
+	top: 60px;
+	left: 0;
+	right: 0;
+	z-index: 20;
+	min-height: 300px;
+	padding: 20px
+	.price-new
+		font-weight: bold
+		display: inline-block
+		margin-right: 10px
+	.price-old
+		color: #b6b6b6
+
+.search__block-item
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	margin-bottom: 40px
+	&-img
+		margin-right: 20px
+	&-name
+		margin-bottom: 10px
+
+.main__slider
+	position: relative
+
+.main__slider-item
+	// height: 380px
+	position: relative
+	img
+		// height: 100%
+		max-width: 100%
+	.main__slider-image
+		position: relative
+		// position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		overflow: hidden
+
+
+.main__slder-arrow-right
+	position: absolute
+	width: 95px
+	height: 72px
+	background: url(../img/icons/slider-arr.png) no-repeat center
+	right: 0
+	top: 50%
+	cursor: pointer
+	transform: rotate(180deg) translateY(50%)
+	&:hover
+		transform: rotate(0deg) translateY(-50%)
+		background: url(../img/icons/slider-arr-active.png) no-repeat center
+
+.main__slder-arrow-left
+	position: absolute
+	width: 95px
+	height: 72px
+	background: url(../img/icons/slider-arr.png) no-repeat center
+	left: 0
+	top: 50%
+	cursor: pointer
+	transform: translateY(-50%)
+	&:hover
+		transform: rotate(180deg) translateY(50%)
+		background: url(../img/icons/slider-arr-active.png) no-repeat center
+
+.advantages
+	margin-top: 45px
+
+.adv__item
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	&-img
+		margin-right: 15px
+		min-height: 90px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+	&-text
+		color: $main
+		font-size: 20px
+		font-weight: bold
+
+
+.catalog__block
+	margin-top: 40px	
+
+.catalog__block-item
+	margin-bottom: 20px
+	margin-top: 20px
+	padding: 10px
+	transition: 0.2s
+	position: relative
+	&:hover
+		box-shadow: 1px -9px 35px 5px rgba(229,241,246,1);
+		.cb__parameters
+			display: block
+		.cb__variant
+			display: block
+
+.cb__parameters
+	display: none
+	position: absolute
+	background-color: white
+	z-index: 2
+	box-shadow: 1px 10px 35px 0px #e5f1f6;
+	right: 0
+	left: 0
+	padding: 10px
+	color: $text
+
+p
+	margin-bottom: 10px
+
+h2
+	font-size: 32px
+	line-height: 40px
+	font-weight: bold
+	color: #363636
+
+h6
+	font-size: 20px
+	font-family: 'Exo2-Medium'
+	padding-bottom: 15px
+
+.catalog__block-name
+	margin-bottom: 20px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: flex-end
+	h2
+		margin-right: 50px
+
+.cb__sliders
+	margin-bottom: 40px
+	min-height: 170px
+
+.cb__slider-big-wrap
+	float: left
+	width: 70%
+
+.cb__slider-small-wrap
+	float: right
+	width: 25%
+
+.cb__slider-small-item
+	transition: 0.2s
+
+.cb__slider-small-item img,
+.cb__slider-big-item img
+	max-width: 100%
+	cursor: pointer
+
+.btn__reset
+	outline: none
+	background: none
+	border: none
+
+.mob__menu-close
+	display: none
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 20px;
+	z-index: 10
+
+.header__tel-mobile
+	display: none
+	text-align: center
+	a
+		display: inline-block
+		width: 20px
+		position: relative
+		top: 3px
+
+.header .btn__reset
+	position: relative
+	top: 4px
+
+.cb__text
+	margin-bottom: 10px
+	min-height: 80px
+	&-name
+		margin-bottom: 10px
+		a
+			font-size: 19px
+			color: #363636
+			line-height: 20px
+			font-family: 'Exo2-Medium'
+	&-material
+		font-size: 16px
+		color: #939393
+
+.cb__price
+	margin-bottom: 25px
+
+.cb__button
+	margin-bottom: 25px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	justify-content: space-between
+
+.cb__slider-small-item.active
+	opacity: 0.7
+
+.cb__variant
+	display: none
+	a
+		color: #949494
+		font-family: 'Exo2-Regular'
+		border-bottom: 1px dotted #949494
+
+.price-big
+	font-size: 36px
+	line-height: 40px
+	font-weight: bold
+	color: #393939
+	display: inline-block
+	margin-right: 20px
+
+.price-small
+	font-family: 'Exo2-Medium'
+	font-size: 20px
+	color: #b5b5b5
+
+.cb__banners
+	position: absolute
+	top: 10px
+	left: 10px
+	z-index: 25
+
+.cb__banner-item
+	padding: 5px 20px
+	font-weight: bold
+	border-top-left-radius: 10px
+	border-bottom-right-radius: 10px
+	
+.cb__banner-item-hit
+	background-color: #ff4e6b
+	color: white
+
+.cb__banner-item-new
+	color: #393939
+	background-color: #94ddff
+
+.btn
+	outline: none
+	border: none
+	background-color: #fff
+	display: inline-block
+	border: 1px solid #5b889d
+	text-transform: uppercase
+	color: #5b889d
+	font-size: 14px
+	text-align: center
+	padding-top: 15px
+	padding-bottom: 15px
+	width: 170px
+	cursor: pointer
+	transition: 0.2s
+	&:hover
+		border: 1px solid #317c9f
+		background-color: #317c9f
+		color: white
+
+.hints__block
+	margin-bottom: 200px
+
+
+.hints__block-item
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	margin-top: 40px
+	margin-bottom: 40px
+
+.hints__block-item-img
+	margin-right: 50px
+	min-width: 110px
+	img
+		max-width: 100%
+
+.footer
+	background-color: #e0f6ff
+	padding-bottom: 60px
+
+.footer__social
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+
+.footer__left-logo
+	margin-bottom: 30px
+	img
+		max-width: 100%
+
+.footer__social-icon
+	display: inline-block
+	margin-right: 10px
+	width: 40px
+	height: 40px
+	&-vk
+		background: url(../img/icons/vk.png) no-repeat center
+	&-in
+		background: url(../img/icons/in.png) no-repeat center
+	&-fb
+		background: url(../img/icons/fb.png) no-repeat center
+	&-odn
+		background: url(../img/icons/odn.png) no-repeat center
+	&-tw
+		background: url(../img/icons/twitter.png) no-repeat center
+	&:last-child
+		margin-right: 0
+
+.footer__pay-item
+	display: inline-block
+	margin-right: 10px
+	width: 74px
+	height: 45px
+	&-visa
+		background: url(../img/visa.png) no-repeat center
+	&-mc
+		background: url(../img/mc.png) no-repeat center
+	&-club
+		background: url(../img/club.png) no-repeat center
+	&-jcb
+		background: url(../img/jcb.png) no-repeat center
+	&:last-child
+		margin-right: 0
+
+.footer__pay
+	margin-top: 20px
+	margin-bottom: 40px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	align-items: flex-end
+
+.footer__menu
+	li a
+		display: inline-block
+		color: #363636
+		font-family: 'Exo2-Regular'
+		text-decoration: underline
+		margin-bottom: 15px
+		&:hover
+			color: #3f7b97
+
+.footer__copyright a
+	display: inline-block
+	color: #363636
+	font-family: 'Exo2-Regular'
+	text-decoration: underline
+	margin-bottom: 15px
+	&:hover
+		color: #3f7b97
+
+.mobile-header__wrap
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	justify-content: space-between
+	.main__menu-search
+		margin-bottom: 0
+
+
+.clearfix::after
+	content: "";
+	display: table;
+	clear: both;
+
+
+input[type="text"], input[type="tel"]
+	padding: 2px
+	border: none
+	border-bottom: 1px solid #2d2d2d
+	color: #949494
+	font-family: 'Exo2-Bold'
+	max-width: 100px
+
+.btn-small
+	font-size: 12px
+	text-transform: none
+	padding-top: 2px
+	padding-bottom: 2px
+
+.main__menu-sticky
+	position: fixed
+	top: 0
+	z-index: 200
+	background-color: #e0f6ff
+	width: 100%
+	li.main__menu-item-fixed
+		padding-top: 0
+		padding-bottom: 0
+		a
+			font-size: 14px
+	.main__menu-search input[type=text]
+		background-color: #e0f6ff
+	.main__menu-search-fixed
+		display: block
+		text-align: center
+	.main__menu-subitem
+		top: 60px
+	.main__menu-item-fixed
+		display: block
+
+
+header .search-opened input[type=text]
+	background-color: #e0f6ff
+
+header .main__menu-search a
+	width: 20px
+	display: inline-block
+	img
+		width: 100%
+
+@import "media" // Always at the end

@@ -1,0 +1,134 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+	.header
+		min-height: auto
+	.header__tel
+		span
+			display: block
+	.main__slider-item img
+		position: relative;
+		// left: 130px;
+	.header__tel a
+		font-size: 16px
+
+
+
+// ≥992px
++media-breakpoint-down(md)
+	.header__tel
+		margin-top: 10px
+		margin-bottom: 10px
+	.main__slider-item img
+		// left: 200px
+	.main__menu-search
+		margin-bottom: 20px
+	.cb__parameters
+		display: block;
+		position: relative;
+		box-shadow: none;
+		padding: 0px;
+	.main__menu
+		background-color: #fff;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 1000;
+		max-width: 100vw;
+		max-height: 100vh;
+		will-change: transform;
+		overflow: scroll;
+		transition: transform 300ms ease-in-out .15s;
+		transform: translateX(-100%)
+	.main__menu.active
+		transform: translateX(0%)
+	.mob__menu-close
+		display: block
+	.header__menu
+		margin-top: 20px
+		margin-bottom: 20px
+	.main__menu-list ul
+		display: block
+	.main__menu-list ul>li
+		display: block
+	.main__menu-search label
+		justify-content: flex-start
+	.main__menu-list ul>li:hover .main__menu-subitem
+		display: block
+		position: relative
+		left: 0
+		padding-bottom: 0
+	.search__block
+		top: 100%
+	.main__menu-search
+		text-align: left
+	.main__menu-list .main__menu-subitem
+		display: block
+		position: relative
+		left: 0
+		padding-bottom: 0
+	.height-block
+		padding-top: 200px
+
+// ≥768px
++media-breakpoint-down(sm)
+	.main__slider-item img
+		// left: 300px
+	.adv__item-img
+		min-width: 110px	
+	.cb__slider-big-wrap
+		float: none
+		width: 100%
+	.cb__slider-small-wrap
+		float: none
+		width: 100%
+	.cb__slider-small-item
+		display: inline-block
+		max-width: 30%
+	.cb__slider-big-item
+	    min-height: 200px;		
+	.header__tel
+		display: none
+	.header__tel-mobile
+		display: block
+
+
+// ≥576px
++media-breakpoint-down(xs)
+	.main__slider-item img
+		// left: 450px
+	.hints__block-item-img
+		margin-right: 5px
+	.footer__pay
+		flex-flow: row wrap
+		span
+			width: 100%
+			margin-bottom: 10px
+	.catalog__block-name
+		display: block
+		h2
+			margin-bottom: 10px
+	header .main__menu-search
+		display: none
+
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
