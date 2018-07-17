@@ -58,6 +58,9 @@
         </div>
       </div>
     </footer>
+    <a href="#" class="b-arrow-to-top">
+      <i class="icon icon-arrow-to-top"></i>
+    </a>
   </div>
   <script src="js/scripts.min.js"></script>
 

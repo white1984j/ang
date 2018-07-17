@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <button class="b-sidebar-btn">Фильтр</button>
+        <button class="b-btn b-sidebar-btn">Фильтр</button>
         <div class="b-sidebar b-sidebar--mw">
           <div class="b-sidebar-path">
             <div class="b-sidebar-path-head b-sidebar-path-head--active">
@@ -768,6 +768,9 @@
                 <p>Механизм трансформации: Дельфин</p>
               </div>
             </div>
+          </div>
+          <div class="col-12 txt-c" style="margin-bottom: 40px;">
+            <button class="b-btn">Показать еще</button>
           </div>
         </div>
       </div>

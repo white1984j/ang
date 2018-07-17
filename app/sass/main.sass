@@ -89,8 +89,35 @@ a
 .icon
 	display: inline-block
 
+.txt-c
+	text-align: center
+
+.b-btn
+	display: inline-block
+	padding: 8px 28px
+	border: 1px solid rgb(91, 136, 157)
+	border-radius: 6px
+	background: rgb(224, 246, 255)
+	text-transform: uppercase
+	font-size: 14px
+	color: #5b889d
+	cursor: pointer
+	transition: .2s
+	&:hover
+		color: #fff
+		background: #317c9f
+		border-color: #317c9f
+
 .section-main
 	margin-top: 25px
+
+.b-arrow-to-top
+	display: none
+	position: fixed
+	bottom: -5px
+	right: 0px
+	cursor: pointer
+	z-index: 2
 
 //forms
 .b-label
@@ -703,13 +730,7 @@ header .main__menu-search a
 .b-sidebar-btn
 	display: none
 	width: 100%
-	margin-bottom: 20px
-	padding: 8px 14px
-	font-size: 18px
-	text-align: center
-	border: none
-	background: #317c9f;
-	color: #fff
+	margin-bottom: 15px
 .b-sidebar
 	margin-bottom: 0px
 .b-sidebar-path
