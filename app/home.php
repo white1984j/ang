@@ -393,7 +393,7 @@
 					<h2>Прямые Диваны</h2>
 				</div>
 				<div class="row">
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
 						<div class="catalog__block-item">
 							<div class="cb__banners">
 								<div class="cb__banner-item cb__banner-item-hit">
@@ -447,7 +447,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
 						<div class="catalog__block-item">
 							<div class="cb__banners">
 								<div class="cb__banner-item cb__banner-item-new">
@@ -495,7 +495,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
 						<div class="catalog__block-item">
 							<div class="cb__sliders clearfix">
 								<div class="cb__slider-big-wrap">
@@ -544,7 +544,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 catalog__block-item-wrap">
 						<div class="catalog__block-item">
 							<div class="cb__sliders clearfix">
 								<div class="cb__slider-big-wrap">
@@ -737,3 +737,5 @@
 				</div>
 			</div>
 		</section>
+
+<? include('footer.php'); ?>

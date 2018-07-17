@@ -93,4 +93,57 @@ $(function() {
 	}
 	stickyBlock(992, 3000, "sticky-menu");
 	stickyBlock(300, 991, "header-sticky");
+
+
+
+	$('.b-sidebar-path-head').on('click', function(e) {
+		$(this)
+			.toggleClass('b-sidebar-path-head--active')
+			.next('.b-sidebar-path-body').slideToggle('fast');
+	});
+
+
+
+	// range price
+	$('.b-rangeSlider').each( function() {
+		console.log( $(this)[0] );
+		var that = $(this),
+			priceSlider = that[0],
+			priceSliderFrom = that.find('.b-rangeSlider-input:nth-child(1)'),
+			priceSliderTo = that.find('.b-rangeSlider-input:nth-child(2)'),
+			priceInputs = [priceSliderFrom, priceSliderTo];
+
+	  noUiSlider.create(priceSlider, {
+	    step: +that.attr('data-step'),
+	    start: [+that.attr('data-start1'), +that.attr('data-start2')],
+	    range: {
+	      'min': +that.attr('data-from'),
+	      'max': +that.attr('data-to')
+	    }
+	  });
+
+	  priceSlider.noUiSlider.on('update', function( values, handle ) {
+			priceInputs[handle].val(Math.round(+values[handle])+' '+that.attr('data-postfix'));
+		});
+
+		function setSliderHandle(i, value) {
+			var r = [null,null];
+			r[i] = value;
+			priceSlider.noUiSlider.set(r);
+		}
+
+		priceInputs.forEach(function(input, handle) {
+			input.on('change', function(){
+				setSliderHandle(handle, this.value);
+			});
+		})
+	});
+
+
+	$('.b-sidebar-btn').on("click", function() {
+		$('.b-sidebar').slideToggle();
+	});
+	
+	
+
 });

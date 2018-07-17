@@ -11,7 +11,8 @@ var gulp          = require('gulp'),
 		autoprefixer  = require('gulp-autoprefixer'),
 		notify        = require("gulp-notify"),
 		rsync         = require('gulp-rsync'),
-		del           = require('del');
+		del           = require('del'),
+		spritesmith   = require('gulp.spritesmith');
 
 gulp.task('browser-sync', function() {
 	browsersync({
@@ -50,6 +51,7 @@ gulp.task('js', function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/slick/slick.min.js',
 		'app/libs/magnific-popup/jquery.magnific-popup.min.js',
+		'app/libs/noUiSlider/nouislider.min.js',
 		// 'app/libs/masonry/masonry.pkgd.min.js',
 		'app/js/common.js', // Always at the end
 		])
@@ -77,7 +79,7 @@ gulp.task('rsync', function() {
 gulp.task('watch', ['styles', 'js', 'browser-sync'], function() {
 	gulp.watch('app/sass/**/*.sass', ['styles']);
 	gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['js']);
-	gulp.watch('app/*.html', browsersync.reload)
+	gulp.watch('app/*.php', browsersync.reload)
 });
 
 
@@ -85,6 +87,7 @@ gulp.task('build', ['removedist', 'styles', 'js'], function() {
 
 	var buildFiles = gulp.src([
 		'app/*.html',
+		'app/*.php',
 		'app/.htaccess',
 		]).pipe(gulp.dest('dist'));
 
@@ -104,6 +107,14 @@ gulp.task('build', ['removedist', 'styles', 'js'], function() {
 		'app/fonts/**/*',
 		]).pipe(gulp.dest('dist/fonts'));
 
+});
+
+gulp.task('sprite', function () {
+	var spriteData = gulp.src('app/img/sprite/icons/*.png').pipe(spritesmith({
+		imgName: 'sprite.png',
+		cssName: 'sprite.css'
+	}));
+	return spriteData.pipe(gulp.dest('app/img/sprite'));
 });
 
 gulp.task('removedist', function() { return del.sync('dist'); });
