@@ -127,17 +127,33 @@ a
 	display: flex
 	align-items: flex-start
 	input[type="checkbox"],
-	inpit[type="radio"]
+	input[type="radio"]
 		display: none
 input[type="checkbox"]:checked + .b-checkbox-icon,
-inpit[type="radio"]:checked + .b-checkbox-icon
 	.icon
 		opacity: 1
+input[type="radio"]
+	& + .b-checkbox-icon
+		border-radius: 50%
+	&:checked + .b-checkbox-icon
+		justify-content: center
+		align-items: center
+		.icon
+			display: none
+		&:after
+			content: ""
+			display: inline-block
+			min-width: 8px
+			min-height: 8px
+			border-radius: 50%
+			background: rgb(191, 191, 191)
 .b-checkbox-icon
 	display: inline-flex
-	flex-basis: 13px
-	max-width: 13px
-	height: 13px
+	position: relative
+	flex-basis: 14px
+	max-width: 14px
+	min-width: 14px
+	min-height: 14px
 	transform: translateY(3px)
 	justify-content: center
 	align-items: center
@@ -816,6 +832,12 @@ header .main__menu-search a
 	outline: (none !important)
 	top: -9px
 
+
+.b-text
+	margin-bottom: 50px
+	font-size: 18px
+	p
+		margin-bottom: 20px
 
 
 

@@ -9,7 +9,7 @@
           <div class="b-sidebar-path">
             <div class="b-sidebar-path-head b-sidebar-path-head--active">
               <div class="b-sidebar-path-head__txt">
-                <span>Тип дивана:</span>
+                <span>Стиль дивана:</span>
               </div>
               <div class="b-sidebar-path-head__triangle"></div>
             </div>
@@ -21,7 +21,7 @@
                     <div class="b-checkbox-icon">
                       <span class="icon icon-checked"></span>
                     </div>
-                    <div class="b-checkbox-text">Угловой <span class="b-checkbox-subtext">24</span></div>
+                    <div class="b-checkbox-text">Современный <span class="b-checkbox-subtext">24</span></div>
                   </label>
                 </li>
                 <li>
@@ -30,10 +30,551 @@
                     <div class="b-checkbox-icon">
                       <span class="icon icon-checked"></span>
                     </div>
-                    <div class="b-checkbox-text">Прямой <span class="b-checkbox-subtext">42</span></div>
+                    <div class="b-checkbox-text">Классический</div>
                   </label>
                 </li>
-              </ul>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Прованс</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Кантри</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Лофт</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Модерн</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Хай тек</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Арт деко</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Минимализм</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Индустриальный</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Скандинавский</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Восточный</div>
+                  </label>
+                </li>
+              </ul>            
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head ">
+              <div class="b-sidebar-path-head__txt">
+                <span>Количество спальных мест:</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body">
+              <ul class="b-sidebar-path-body__ul">
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">односпальный</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">двуспальный</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">полутороспальный</div>
+                  </label>
+                </li>
+              </ul>            
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head ">
+              <div class="b-sidebar-path-head__txt">
+                <span>Помещение для установки:</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body" >
+              <ul class="b-sidebar-path-body__ul">
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Детская</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Гостиная</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Подростковая комната</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Спальня</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Кухня</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Прихожая</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Офис</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Дача</div>
+                  </label>
+                </li>  
+              </ul>            
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head">
+              <div class="b-sidebar-path-head__txt">
+                <span>Число мест:</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body">
+              <ul class="b-sidebar-path-body__ul">
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Одноместный</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Двухместный</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Трехместный</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Четырехместный</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">и более</div>
+                  </label>
+                </li>
+              </ul>            
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head ">
+              <div class="b-sidebar-path-head__txt">
+                <span>Короб для белья:</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body">
+              <ul class="b-sidebar-path-body__ul">
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="radio" name="radio-box-for-linen" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Да</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="radio" name="radio-box-for-linen">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Нет</div>
+                  </label>
+                </li>
+              </ul>            
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head">
+              <div class="b-sidebar-path-head__txt">
+                <span>МТД (механизмы трансформации диванов):</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body">
+              <ul class="b-sidebar-path-body__ul">
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Еврокнижка</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Дельфин</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Клик-Кляк</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Танго</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Конрад</div>
+                  </label>
+                </li>
+                 <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Седафлекс</div>
+                  </label>
+                </li>
+                 <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Mixotoile</div>
+                  </label>
+                </li>
+                 <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Тик-Так</div>
+                  </label>
+                </li>
+                 <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Аккордеон</div>
+                  </label>
+                </li>
+                 <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Книжка</div>
+                  </label>
+                </li>
+              </ul>            
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head ">
+              <div class="b-sidebar-path-head__txt">
+                <span>Модульность:</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body">
+              <ul class="b-sidebar-path-body__ul">
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="radio" name="radio-box-for-linen" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Да</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="radio" name="radio-box-for-linen">
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Нет</div>
+                  </label>
+                </li>
+              </ul>            
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head">
+              <div class="b-sidebar-path-head__txt">
+                <span>МТД (механизмы трансформации диванов):</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body">
+              <ul class="b-sidebar-path-body__ul">
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Жаккард</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Шенилл</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Гобелен</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Рогожка</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Велюр</div>
+                  </label>
+                </li>
+                 <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Бархат</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Флок</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Эко кожа</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Натуральная кожа</div>
+                  </label>
+                </li>
+                <li>
+                  <label class="b-label b-label--checkbox">
+                    <input type="checkbox" checked>
+                    <div class="b-checkbox-icon">
+                      <span class="icon icon-checked"></span>
+                    </div>
+                    <div class="b-checkbox-text">Искусственная замша</div>
+                  </label>
+                </li>
+              </ul>            
             </div>
           </div>
 
@@ -51,9 +592,10 @@
                   <input class="b-rangeSlider-input">
                 </div>
               </div>
-                
             </div>
           </div>
+
+          
 
           <div class="b-sidebar-path">
             <div class="b-sidebar-path-head b-sidebar-path-head--active">
@@ -70,386 +612,6 @@
                 </div>
               </div>
                 
-            </div>
-          </div>
-
-          <div class="b-sidebar-path">
-            <div class="b-sidebar-path-head b-sidebar-path-head--active">
-              <div class="b-sidebar-path-head__txt">
-                <span>Помещения для установки:</span>
-              </div>
-              <div class="b-sidebar-path-head__triangle"></div>
-            </div>
-            <div class="b-sidebar-path-body" style="display: block">
-              <ul class="b-sidebar-path-body__ul">
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox" checked>
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Гостинная <span class="b-checkbox-subtext">14</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Кухня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Детская <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Спальня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Прихожая <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Офис <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Дача <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="b-sidebar-path">
-            <div class="b-sidebar-path-head">
-              <div class="b-sidebar-path-head__txt">
-                <span>Количество спальных мест:</span>
-              </div>
-              <div class="b-sidebar-path-head__triangle"></div>
-            </div>
-            <div class="b-sidebar-path-body">
-              <ul class="b-sidebar-path-body__ul">
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox" checked>
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Гостинная <span class="b-checkbox-subtext">14</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Кухня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Детская <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Спальня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Прихожая <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Офис <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Дача <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="b-sidebar-path">
-            <div class="b-sidebar-path-head">
-              <div class="b-sidebar-path-head__txt">
-                <span>Количество спальных мест::</span>
-              </div>
-              <div class="b-sidebar-path-head__triangle"></div>
-            </div>
-            <div class="b-sidebar-path-body">
-              <ul class="b-sidebar-path-body__ul">
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox" checked>
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Гостинная <span class="b-checkbox-subtext">14</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Кухня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Детская <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Спальня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Прихожая <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Офис <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Дача <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="b-sidebar-path">
-            <div class="b-sidebar-path-head">
-              <div class="b-sidebar-path-head__txt">
-                <span>Механизмы трансформации:</span>
-              </div>
-              <div class="b-sidebar-path-head__triangle"></div>
-            </div>
-            <div class="b-sidebar-path-body">
-              <ul class="b-sidebar-path-body__ul">
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox" checked>
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Гостинная <span class="b-checkbox-subtext">14</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Кухня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Детская <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Спальня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Прихожая <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Офис <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Дача <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="b-sidebar-path">
-            <div class="b-sidebar-path-head">
-              <div class="b-sidebar-path-head__txt">
-                <span>Короб для белья:</span>
-              </div>
-              <div class="b-sidebar-path-head__triangle"></div>
-            </div>
-            <div class="b-sidebar-path-body">
-              <ul class="b-sidebar-path-body__ul">
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox" checked>
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Гостинная <span class="b-checkbox-subtext">14</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Кухня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Детская <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Спальня <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Прихожая <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Офис <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-                <li>
-                  <label class="b-label b-label--checkbox">
-                    <input type="checkbox">
-                    <div class="b-checkbox-icon">
-                      <span class="icon icon-checked"></span>
-                    </div>
-                    <div class="b-checkbox-text">Дача <span class="b-checkbox-subtext">88</span></div>
-                  </label>
-                </li>
-              </ul>
             </div>
           </div>
 
@@ -772,6 +934,12 @@
           <div class="col-12 txt-c" style="margin-bottom: 40px;">
             <button class="b-btn">Показать еще</button>
           </div>
+        </div>
+        <div class="b-text">
+          <p>Фабрика «Ангажемент» предлагает красивые и удобные угловые диваны Фабрика «Ангажемент» предлагает красивые и удобные угловые диваны Все диваны отличаются по своей отделке, форме и механизму трансформации. Цена и качество моделей также бывают совершенно разными.</p>
+          <p>Все покупатели мечтают купить доступный по цене, удобный и простой в использовании, но, самое главное, качественный диван. Также важно, чтобы он подходил к общему стилю интерьера. </p>
+          <p>Наш интернет магазин предлагает диваны в различных цветовых решениях и на любой вкус. Угловые диваны имеют следующие преимущества:  максимально эффективное использование пространства благодаря удобной угловой форме. Подобная модель идеально подойдет для небольшой площади помещения. Также его можно поставить там, где нельзя установить прямой диван; возможность зонирования любой комнаты, например, спальни, детской, гостиной, кабинета или офиса. Также подобную модель можно успешно сочетать с другой мебелью; кроме цельной конструкции угловые диваны могут иметь несколько составных частей – модулей. Такая модель позволяет использовать их в качестве самостоятельной мебели и менять расположение угла; возможность выбора разных механизмов трансформации. Самые популярные из них: еврокнижка, дельфин, аккордеон, выкатная система.</p>
+          <p>Для максимально простого и быстрого раскладывания дивана без отодвигания от стены лучше всего подходит модель еврокнижка. В каталоге нашего интернет-магазина можно выбрать любую модель угловых диванов по выгодной стоимости. Эта мебель выполняется с тканевой, кожаной обивкой, а также из экокожи или в сочетании разных видов тканей. Стильные и практичные модели угловых диванов имеют правый или левый угол, что позволяет идеально вписать их в любой интерьер. При покупке углового дивана можно приобрести наши фабричные декоративные подушки по привлекательной цене.. Они выполняются из экокожи или ткани.</p>
         </div>
       </div>
     </div>
