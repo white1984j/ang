@@ -15,7 +15,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-7 offset-xl-1 col-lg-9 col-md-12 col-sm-12 col-12">
+          <div class="col-xl-8 offset-xl-1 col-lg-9 col-md-12 col-sm-12 col-12">
             <div class="footer__pay">
               <span>Принимаем к оплате:</span>
               <a href="#" class="footer__pay-item footer__pay-item-visa"></a>
@@ -25,7 +25,7 @@
             </div>
             <div class="footer__menu">
               <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="col-sm-auto col-12">
                   <ul>
                     <li><a href="#" class="footer__menu-item">Распродажа</a></li>
                     <li><a href="#" class="footer__menu-item">Качество</a></li>
@@ -33,7 +33,7 @@
                     <li><a href="#" class="footer__menu-item">Правила конфидиенциальности</a></li>
                   </ul>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="col-sm-auto col-12">
                   <ul>
                     <li><a href="#" class="footer__menu-item">Распродажа</a></li>
                     <li><a href="#" class="footer__menu-item">Качество</a></li>
@@ -41,7 +41,7 @@
                     <li><a href="#" class="footer__menu-item">Правила конфидиенциальности</a></li>
                   </ul>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="col-sm-auto col-12">
                   <ul>
                     <li><a href="#" class="footer__menu-item">Распродажа</a></li>
                     <li><a href="#" class="footer__menu-item">Новости</a></li>

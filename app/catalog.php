@@ -128,6 +128,43 @@
           </div>
 
           <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head b-sidebar-path-head--active">
+              <div class="b-sidebar-path-head__txt">
+                <span>Цена:</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body" style="display: block">
+              <div class="b-rangeSlider" data-postfix="₽" data-step="10" data-from="100" data-step="10" data-to="3000" data-start1="500" data-start2="2500">
+                <div class="b-rangeSlider-inputs">
+                  <input class="b-rangeSlider-input">
+                  <input class="b-rangeSlider-input">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="b-sidebar-path">
+            <div class="b-sidebar-path-head b-sidebar-path-head--active">
+              <div class="b-sidebar-path-head__txt">
+                <span>Ширина:</span>
+              </div>
+              <div class="b-sidebar-path-head__triangle"></div>
+            </div>
+            <div class="b-sidebar-path-body" style="display: block">
+              <div class="b-rangeSlider" data-postfix="см" data-step="10" data-from="0" data-step="100" data-to="10000" data-start1="1000" data-start2="6000">
+                <div class="b-rangeSlider-inputs">
+                  <input class="b-rangeSlider-input">
+                  <input class="b-rangeSlider-input">
+                </div>
+              </div>
+                
+            </div>
+          </div>
+
+          <div class="b-sidebar-path">
             <div class="b-sidebar-path-head ">
               <div class="b-sidebar-path-head__txt">
                 <span>Количество спальных мест:</span>
@@ -578,43 +615,6 @@
             </div>
           </div>
 
-          <div class="b-sidebar-path">
-            <div class="b-sidebar-path-head b-sidebar-path-head--active">
-              <div class="b-sidebar-path-head__txt">
-                <span>Цена:</span>
-              </div>
-              <div class="b-sidebar-path-head__triangle"></div>
-            </div>
-            <div class="b-sidebar-path-body" style="display: block">
-              <div class="b-rangeSlider" data-postfix="₽" data-step="10" data-from="100" data-step="10" data-to="3000" data-start1="500" data-start2="2500">
-                <div class="b-rangeSlider-inputs">
-                  <input class="b-rangeSlider-input">
-                  <input class="b-rangeSlider-input">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-
-          <div class="b-sidebar-path">
-            <div class="b-sidebar-path-head b-sidebar-path-head--active">
-              <div class="b-sidebar-path-head__txt">
-                <span>Ширина:</span>
-              </div>
-              <div class="b-sidebar-path-head__triangle"></div>
-            </div>
-            <div class="b-sidebar-path-body" style="display: block">
-              <div class="b-rangeSlider" data-postfix="см" data-step="10" data-from="0" data-step="100" data-to="10000" data-start1="1000" data-start2="6000">
-                <div class="b-rangeSlider-inputs">
-                  <input class="b-rangeSlider-input">
-                  <input class="b-rangeSlider-input">
-                </div>
-              </div>
-                
-            </div>
-          </div>
-
         </div>
       </div>
       <div class="col-md-9">
@@ -936,9 +936,13 @@
           </div>
         </div>
         <div class="b-text">
+          <h4>Фабрика «Ангажемент» предлагает красивые и удобные угловые диваны Фабрика</h4>
           <p>Фабрика «Ангажемент» предлагает красивые и удобные угловые диваны Фабрика «Ангажемент» предлагает красивые и удобные угловые диваны Все диваны отличаются по своей отделке, форме и механизму трансформации. Цена и качество моделей также бывают совершенно разными.</p>
+          <br>
           <p>Все покупатели мечтают купить доступный по цене, удобный и простой в использовании, но, самое главное, качественный диван. Также важно, чтобы он подходил к общему стилю интерьера. </p>
+          <br>
           <p>Наш интернет магазин предлагает диваны в различных цветовых решениях и на любой вкус. Угловые диваны имеют следующие преимущества:  максимально эффективное использование пространства благодаря удобной угловой форме. Подобная модель идеально подойдет для небольшой площади помещения. Также его можно поставить там, где нельзя установить прямой диван; возможность зонирования любой комнаты, например, спальни, детской, гостиной, кабинета или офиса. Также подобную модель можно успешно сочетать с другой мебелью; кроме цельной конструкции угловые диваны могут иметь несколько составных частей – модулей. Такая модель позволяет использовать их в качестве самостоятельной мебели и менять расположение угла; возможность выбора разных механизмов трансформации. Самые популярные из них: еврокнижка, дельфин, аккордеон, выкатная система.</p>
+          <br>
           <p>Для максимально простого и быстрого раскладывания дивана без отодвигания от стены лучше всего подходит модель еврокнижка. В каталоге нашего интернет-магазина можно выбрать любую модель угловых диванов по выгодной стоимости. Эта мебель выполняется с тканевой, кожаной обивкой, а также из экокожи или в сочетании разных видов тканей. Стильные и практичные модели угловых диванов имеют правый или левый угол, что позволяет идеально вписать их в любой интерьер. При покупке углового дивана можно приобрести наши фабричные декоративные подушки по привлекательной цене.. Они выполняются из экокожи или ткани.</p>
         </div>
       </div>
