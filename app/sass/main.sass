@@ -121,8 +121,13 @@ a
 
 //forms
 .b-label
-	display: inline-block
+	display: block
+	width: 100%
 	cursor: pointer
+.b-label__txt
+	margin-bottom: 8px
+	font-size: 16px
+	font-family: "Exo2-Bold"
 .b-label--checkbox
 	display: flex
 	align-items: flex-start
@@ -168,6 +173,16 @@ input[type="radio"]
 	margin-left: 8px
 .b-checkbox-subtext
 	color: $gray
+
+.b-input
+	display: block
+	width: 100%
+	max-width: (100% !important)
+	border-radius: 0px
+	padding: (12px 14px !important)
+	background: #fff
+	font-size: 16px
+	border-bottom: (none !important)
 
 .header
 	background-color: $light-blue
@@ -855,6 +870,54 @@ header .main__menu-search a
 		margin-bottom: 14px
 	p
 		margin-bottom: 10px
+
+
+.section-404
+	padding: 70px 0
+.section-404__title
+	margin-bottom: 55px
+	font-family: 'Exo2-Bold'
+	font-size: 36px
+	letter-spacing: -0.05em
+.section-404__subtitle
+	margin-bottom: 24px
+	font-family: 'Exo2-Bold'
+	font-size: 24px
+.section-404__text
+	width: 100%
+	max-width: 585px
+.b-404
+	display: flex
+	align-items: center
+	justify-content: space-between
+	margin-top: 80px
+	background: #e0f6ff
+.b-404-form
+	margin: 40px
+	max-width: 232px
+	width: 100%
+	.b-label
+		margin-bottom: 35px
+.b-404-form__btn
+	padding: 14px
+	width: 100%
+	border: none
+	outline: none
+	background-image: -moz-linear-gradient( 90deg, rgb(4,112,162) 0%, rgb(91,136,157) 100%)
+	background-image: -webkit-linear-gradient( 90deg, rgb(4,112,162) 0%, rgb(91,136,157) 100%)
+	background-image: -ms-linear-gradient( 90deg, rgb(4,112,162) 0%, rgb(91,136,157) 100%)
+	box-shadow: 0px 7px 24.3px 2.7px rgba(95, 165, 197, 0.64)
+	text-transform: uppercase
+	text-align: center
+	color: #fef52f
+	font-size: 14px
+.b-404-img
+	position: relative
+	top: 10px
+	margin-top: 40px
+	margin-right: 40px
+	img
+		max-width: 100%
 
 
 
