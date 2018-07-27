@@ -120,6 +120,23 @@ a
 	z-index: 2
 
 //forms
+input::-webkit-input-placeholder
+  color: #717171
+  font-size: 14px
+  font-family: "Exo2-Regular"
+input::-moz-placeholder
+  color: #717171
+  font-size: 14px
+  font-family: "Exo2-Regular"
+input:-ms-input-placeholder
+  color: #717171
+  font-size: 14px
+  font-family: "Exo2-Regular"
+input:-moz-placeholder
+  color: #717171
+  font-size: 14px
+  font-family: "Exo2-Regular"
+
 .b-label
 	display: block
 	width: 100%
@@ -171,6 +188,8 @@ input[type="radio"]
 	flex-basis: calc(100% - 13px - 8px)
 	max-width: calc(100% - 13px - 8px)
 	margin-left: 8px
+	p
+		margin: 0
 .b-checkbox-subtext
 	color: $gray
 
@@ -920,8 +939,230 @@ header .main__menu-search a
 		max-width: 100%
 
 
+.special-offers-line
+	margin-bottom: 10px
+	padding: 4px 8px
+	text-align: center
+	font-size: 16px
+	font-family: "Exo2-Bold"
+	background: #e0f6ff
+	p
+		margin: 0
+
+.catalog__block-item--bg
+	padding: 10px 30px
+	&-p-0
+		padding: 0
+		margin: 0
+		.cb__sliders
+			margin-bottom: 0
+	&:hover
+		box-shadow: none
+	.cb__slider-big-item
+		display: flex
+		align-items: center
+		justify-content: center
+	.cb__slider-big-wrap
+		width: 100%
+		margin-bottom: 25px
+	.cb__slider-small-wrap
+		width: 100%
+	.cb__slider-small
+		display: flex
+		margin-left: -10px
+		margin-right: -10px
+		justify-content: space-between
+		align-items: center
+	.cb__slider-small-item
+		flex: 1
+		margin-left: 10px
+		margin-right: 10px
+		padding-bottom: 12px
+		border-bottom: 4px solid rgba(255,255,255,0)
+		&.active
+			border-bottom: 4px solid #4d7385
+	.cb__text-name a
+		font-size: 20px
+		font-family: "Exo2-Bold"
+		text-decoration: underline
+	.cb__characteristics
+		li
+			padding-left: 12px
+			font-size: 12px
+			&:before
+				content: "+"
+				display: inline-block
+				margin-left: -10px
+				font-family: "Exo2-Bold"
+				color: #ff4a67
+				margin-right: 5px
+			& + li
+				margin-top: 15px
+	.price-big
+		display: block
+		margin: 0 0 10px 0
+		color: #ff4a67
+		text-align: right
+		font-family: "Exo2-Regular"
+		font-weight: normal
+		span
+			font-family: "Arial"
+	.price-small
+		display: block
+		margin-bottom: 30px
+		text-align: right
+		font-family: "Exo2-Regular"
+		font-weight: normal
+		span
+			font-family: "Arial"
+	.cb__button
+		justify-content: flex-end
+
+
+.b-product-day
+	display: flex
+	flex-direction: column
+	width: 100%
+	border: 2px solid #ff3657
+	border-radius: 8px 0 8px 0
+.b-product-day__header
+	padding: 8px 10px 10px
+	text-transform: uppercase
+	background: #ff3657
+	font-size: 20px
+	font-family: "Exo2-Bold"
+	color: #fff
+	text-align: center
+.b-product-day__body
+	display: flex
+	flex-direction: column
+	justify-content: space-around
+	padding: 30px 40px 40px
+	flex: 1 1 auto
+.b-product-day__name
+	font-size: 24px
+	line-height: 1.2
+	font-family: "Exo2-Bold"
+.b-product-day__desc-list
+	list-style: none
+	li
+		padding-left: 12px
+		&:before
+			content: "+"
+			display: inline-block
+			margin-left: -10px
+			font-family: "Exo2-Bold"
+			color: #ff4a67
+			margin-right: 5px
+		& + li
+			margin-top: 15px
+.b-product-day__price
+	text-align: right
+	font-size: 42px
+	line-height: 1.2
+	font-family: "Exo2-Bold"
+	color: #ff3a5b
+	span
+		font-family: 'Arial'
+		font-weight: bold
+.b-product-day__old-price
+	text-align: right
+	font-size: 32px
+	line-height: 1.2
+	font-family: "Exo2-Bold"
+	color: #b6b6b6
+	span
+		font-family: 'Arial'
+		font-weight: bold
+.b-product-day__btn
+	display: block
+	padding: 13px 6px
+	margin-top: 15px
+	color: #fff
+	font-size: 16px
+	text-transform: uppercase
+	font-family: "Exo2-Bold"
+	text-align: center
+	background-image: -moz-linear-gradient( 90deg, rgb(255,0,41) 0%, rgb(255,74,103) 100%)
+	background-image: -webkit-linear-gradient( 90deg, rgb(255,0,41) 0%, rgb(255,74,103) 100%)
+	background-image: -ms-linear-gradient( 90deg, rgb(255,0,41) 0%, rgb(255,74,103) 100%)
+	box-shadow: 0px 7px 24.3px 2.7px rgba(182, 182, 182, 0.64)
+	transition: 0.3s
+	&:hover
+		opacity: 0.8
+		color: #fff
+.b-product-day__txt
+	margin: 10px 0
 
 
 
+
+.b-subscription
+	display: flex
+	margin: 60px 0
+	background-color: #3c899f
+	background-image: url('../img/describe-back.png')
+	background-repeat: no-repeat
+	color: #fff
+.b-subscription__txt
+	display: flex
+	padding: 10px 100px 10px 124px
+	align-items: center
+	font-family: "Exo2-Bold"
+	line-height: 1.4
+	font-size: 24px
+	max-width: calc(100% - 370px)
+	flex-basis: calc(100% - 370px)
+	p
+		margin: auto
+.b-subscription__form
+	display: flex
+	align-items: center
+	padding-top: 30px
+	padding-right: 30px
+	padding-bottom: 10px
+	max-width: 370px
+	flex-basis: 370px
+	form
+		display: block
+		width: 100%
+	.b-checkbox-text
+		font-size: 10px
+		line-height: 1.1
+	.b-label--checkbox
+		margin-top: 10px
+input.b-subscription-input
+	padding: 6px 8px
+	width: calc(100% - 142px)
+	max-width: calc(100% - 142px)
+	border-bottom: none
+button.b-subscription-submit
+	display: inline-flex
+	width: 141px
+	max-width: 141px
+	margin-left: 1px
+	padding: 6px 10px
+	align-items: center
+	text-align: center
+	justify-content: center
+	border: none
+	background: #fef52f
+	transition: 0.2s
+	cursor: pointer
+	&:hover
+		opacity: 0.8
+	.icon
+		margin-right: 4px
+
+.txt-740
+	width: 740px
+	margin: 10px auto 40px
+	max-width: 100%
+	text-align: center
+	font-size: 18px
+	p
+		margin: 0
+	b
+		font-family: "Exo2-Bold"
 
 @import "media" // Always at the end
