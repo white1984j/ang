@@ -86,6 +86,14 @@ a
 	&:active
 		text-decoration: none
 
+input[type="submit"]
+	cursor: pointer
+
+.mb-30
+	margin-bottom: 30px
+.mt-10
+	margin-top: 10px
+
 .icon
 	display: inline-block
 
@@ -193,6 +201,8 @@ input[type="radio"]
 .b-checkbox-subtext
 	color: $gray
 
+input[type="text"].b-input,
+input[type="password"].b-input,
 .b-input
 	display: block
 	width: 100%
@@ -446,6 +456,11 @@ h4
 	font-weight: bold
 	color: #363636
 
+h5
+	font-size: 22px
+	line-height: 1.3
+	font-weight: bold
+	color: #363636
 
 h6
 	font-size: 20px
@@ -917,6 +932,7 @@ header .main__menu-search a
 	width: 100%
 	.b-label
 		margin-bottom: 35px
+.btn-color,
 .b-404-form__btn
 	padding: 14px
 	width: 100%
@@ -1131,21 +1147,23 @@ header .main__menu-search a
 		line-height: 1.1
 	.b-label--checkbox
 		margin-top: 10px
+.b-subscription__form.b-subscription__form-p-sm
+	padding: 10px 0
 input.b-subscription-input
 	padding: 6px 8px
 	width: calc(100% - 142px)
 	max-width: calc(100% - 142px)
-	border-bottom: none
+	border: 1px solid #317487
 button.b-subscription-submit
 	display: inline-flex
-	width: 141px
-	max-width: 141px
-	margin-left: 1px
+	width: 142px
+	max-width: 142px
 	padding: 6px 10px
 	align-items: center
 	text-align: center
 	justify-content: center
-	border: none
+	border: 1px solid #317487
+	border-left: none
 	background: #fef52f
 	transition: 0.2s
 	cursor: pointer
@@ -1164,5 +1182,60 @@ button.b-subscription-submit
 		margin: 0
 	b
 		font-family: "Exo2-Bold"
+
+.b-authorisation-form
+	display: block
+	margin-top: 30px
+	margin-bottom: 40px
+	.b-label
+		margin-bottom: 20px
+	input.b-input
+		border-radius: 6px
+		background-color: rgb(224, 246, 255)
+		border-color: transparent
+		color: #363636
+		font-weight: bold
+		font-size: 16px
+
+.b-authorisation-form__bottom
+	width: 370px
+	max-width: 100%
+	margin-top: 33px
+	padding-top: 24px
+	border-top: 1px solid #D7F6FF
+	a
+		display: inline-block
+		margin-bottom: 13px
+		font-family: "Exo2-Bold"
+		font-size: 18px
+		line-height: 1.2
+		text-decoration: underline
+		color: #1675a1
+		&:hover
+			color: #000
+			text-decoration: none
+
+
+.b-sm-special-offers
+	display: block
+	margin-bottom: 50px
+	img
+		max-width: 100%
+// 	display: block
+// 	padding: 38px
+// 	background: #D7F6FF url('../img/special-offers-sm.png') no-repeat center
+// .b-sm-special-offers__content
+// 	padding: 90px 60px
+// 	border: 2px solid rgb(204, 154, 0);
+// 	background-color: rgba(255, 255, 255, 0.8)
+// 	text-align: center
+// 	font-size: 30px
+// 	line-height: 1.3
+// 	b
+// 		font-size: 45px
+
+
+
+
 
 @import "media" // Always at the end
