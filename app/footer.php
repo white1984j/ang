@@ -25,28 +25,28 @@
             </div>
             <div class="footer__menu">
               <div class="row">
-                <div class="col-sm-auto col-12">
+                <div class="col-xl-4 col-lg-4 col-12">
                   <ul>
-                    <li><a href="#" class="footer__menu-item">Распродажа</a></li>
+                    <li><a href="#" class="footer__menu-item">О компании</a></li>
                     <li><a href="#" class="footer__menu-item">Качество</a></li>
                     <li><a href="#" class="footer__menu-item">Как заказать</a></li>
                     <li><a href="#" class="footer__menu-item">Правила конфидиенциальности</a></li>
                   </ul>
                 </div>
-                <div class="col-sm-auto col-12">
-                  <ul>
-                    <li><a href="#" class="footer__menu-item">Распродажа</a></li>
-                    <li><a href="#" class="footer__menu-item">Качество</a></li>
-                    <li><a href="#" class="footer__menu-item">Как заказать</a></li>
-                    <li><a href="#" class="footer__menu-item">Правила конфидиенциальности</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-auto col-12">
+                <div class="col-xl-4 col-lg-4 col-12">
                   <ul>
                     <li><a href="#" class="footer__menu-item">Распродажа</a></li>
                     <li><a href="#" class="footer__menu-item">Новости</a></li>
                     <li><a href="#" class="footer__menu-item">Полезные статьи</a></li>
                     <li><a href="#" class="footer__menu-item">Уход за мебелью</a></li>
+                  </ul>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-12">
+                  <ul>
+                    <li><a href="#" class="footer__menu-item">Рассрочка</a></li>
+                    <li><a href="#" class="footer__menu-item">Кредит</a></li>
+                    <li><a href="#" class="footer__menu-item">Оплата</a></li>
+                    <li><a href="#" class="footer__menu-item">Доставка</a></li>
                   </ul>
                 </div>
               </div>
