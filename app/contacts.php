@@ -16,7 +16,7 @@
         </div>
         <h2>Контакты</h2>
         <br>
-        <section class="contacts-section">
+        <div class="contacts-section">
           <div class="row">
             <div class="col-lg-5 col-md-12">
               <div class="b-contact-main">
@@ -140,7 +140,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
   
       </div>
     </div>

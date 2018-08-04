@@ -106,6 +106,8 @@
 		width: 100%
 		margin-top: 20px
 		padding: 40px
+	.b-history-orders__wrap
+		padding: 0
 
 // ≥768px
 +media-breakpoint-down(sm)
@@ -158,6 +160,29 @@
 		padding: 20px
 	.b-information-path
 		margin: 20px 0
+	.b-history-orders
+		th
+			display: none
+		tr
+			display: block
+			& + tr
+				padding-top: 15px
+				margin-top: 30px
+				border-top: 1px solid #D7F6FF
+		td
+			padding: 15px
+			display: flex
+			border-top: none
+			align-items: center
+	.b-history-orders__mob
+		display: block
+		flex: 0 0 40%
+	.b-history-orders-product-td
+		max-width: 100%
+	.b-history-orders-product
+		flex-direction: column
+	.b-history-orders-product__img
+		margin: 0 0 10px 0
 
 
 // ≥576px
