@@ -153,6 +153,8 @@ input:-moz-placeholder
 	margin-bottom: 8px
 	font-size: 16px
 	font-family: "Exo2-Bold"
+.b-label__txt__sm
+	font-size: 10px
 .b-label--checkbox
 	display: flex
 	align-items: flex-start
@@ -613,6 +615,11 @@ h6
 		border: 1px solid #317c9f
 		background-color: #317c9f
 		color: white
+.btn--sm
+	padding: 10px 10px
+
+.btn--active
+	background: #e0f6ff
 
 .hints__block
 	margin-bottom: 200px
@@ -1197,10 +1204,46 @@ button.b-subscription-submit
 		font-weight: bold
 		font-size: 16px
 
+.b-form
+	display: block
+	margin-top: 30px
+	margin-bottom: 40px
+	.btn
+		margin: 10px 0
+	.b-label
+		margin-bottom: 20px
+	input.b-input
+		border-radius: 6px
+		background-color: rgb(224, 246, 255)
+		border-color: transparent
+		color: #363636
+		font-weight: bold
+		font-size: 16px
+.b-form__path + .b-form__path
+	margin-top: 90px
+
 .b-authorisation-form__bottom
 	width: 370px
 	max-width: 100%
 	margin-top: 33px
+	padding-top: 24px
+	border-top: 1px solid #D7F6FF
+	a
+		display: inline-block
+		margin-bottom: 13px
+		font-family: "Exo2-Bold"
+		font-size: 18px
+		line-height: 1.2
+		text-decoration: underline
+		color: #1675a1
+		&:hover
+			color: #000
+			text-decoration: none
+
+.b-form__bottom
+	width: 370px
+	max-width: 100%
+	margin-top: 23px
 	padding-top: 24px
 	border-top: 1px solid #D7F6FF
 	a
