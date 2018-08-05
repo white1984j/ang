@@ -941,6 +941,7 @@ header .main__menu-search a
 		margin-bottom: 35px
 .btn-color,
 .b-404-form__btn
+	display: inline-block
 	padding: 14px
 	width: 100%
 	border: none
@@ -953,6 +954,10 @@ header .main__menu-search a
 	text-align: center
 	color: #fef52f
 	font-size: 14px
+	transition: 0.3s
+	&:hover
+		color: #fef52f
+		opacity: 0.8
 .b-404-img
 	position: relative
 	top: 10px
@@ -1418,6 +1423,80 @@ button.b-subscription-submit
 	margin-bottom: 25px
 .b-pravate-areas-category__name
 	font-size: 16px
+
+
+.blue-link
+	color: #367e9f
+	text-decoration: underline
+	font-family: "Exo2-Regular"
+	b
+		font-family: "Exo2-Bold"
+	&:hover
+		text-decoration: none
+.gray-link
+	color: #919191
+	text-decoration: underline
+	font-family: "Exo2-Regular"
+	b
+		font-family: "Exo2-Bold"
+	&:hover
+		text-decoration: none
+
+
+.b-my-orders-header
+	padding: 7px 14px
+	margin: 20px 0
+	background: #e0f6ff
+.b-my-orders-header__txt
+	font-family: "Exo2-Bold"
+	font-size: 16px
+
+.b-my-order-wrap
+	padding: 20px 30px
+	margin-bottom: 40px
+	border: 1px solid #D7F6FF
+
+.b-my-order-path + .b-my-order-path
+	margin-top: 30px
+
+.b-my-order-path__title
+	font-family: "Exo2-Bold"
+	font-size: 16px
+
+.b-my-order-path__body
+	display: flex
+	align-items: flex-start
+.b-my-order-path__body_info
+	flex: 0 1 auto
+.b-my-order-path__body_btn
+	flex: 0 0 170px
+	margin-left: 35px
+
+
+.b-my-order-path__txt-border
+	display: inline-block
+	margin: 5px
+	padding: 5px 12px
+	border: 1px solid #000
+	font-family: "Exo2-Regular"
+	font-size: 14px
+.b-my-order-path__txt-border--red
+	border-color: #ff1818
+	color: #ff1818
+.b-my-order-path__txt-border--gray
+	color: #9c9c9c
+	border-color: #9c9c9c
+
+.b-my-order__bottom
+	display: flex
+	padding: 24px 0 14px
+	margin-top: 25px
+	justify-content: space-between
+	border-top: 1px solid #D7F6FF
+.b-my-order__bottom_link
+	& + .b-my-order__bottom_link
+		margin-left: 80px
+
 
 
 @import "media" // Always at the end

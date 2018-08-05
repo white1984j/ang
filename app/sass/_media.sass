@@ -110,6 +110,11 @@
 		padding: 0
 	.b-form__path+.b-form__path
 		margin-top: 40px
+	.b-my-order-path__body
+		flex-direction: column
+	.b-my-order-path__body_btn
+		flex: 1 1 auto
+		margin: 10px 0 0 0
 
 // ≥768px
 +media-breakpoint-down(sm)
@@ -185,6 +190,13 @@
 		flex-direction: column
 	.b-history-orders-product__img
 		margin: 0 0 10px 0
+	.b-my-order__bottom
+		flex-direction: column
+	.b-my-order__bottom_link
+		display: block
+		margin: 0px 0 10px
+		& + .b-my-order__bottom_link
+			margin-left: 0px
 
 
 // ≥576px
