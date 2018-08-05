@@ -1498,5 +1498,148 @@ button.b-subscription-submit
 		margin-left: 80px
 
 
+.cart-props
+	margin-bottom: 30px
+	padding: 20px 25px
+	border: 1px solid #D7F6FF
+
+.cart-props-form
+	display: flex
+input.cart-props-form__input
+	max-width: 320px
+	padding: 3px 6px
+	border: 1px solid #D7F6FF
+	color: #363636
+	font-family: "Exo2-Regular"
+	flex: 1 1 auto
+.cart-props-form__submit
+	display: inline-flex
+	justify-content: center
+	align-items: center
+	border: none
+	outline: none
+	background: #D7F6FF
+	cursor: pointer
+	flex: 0 0 28px
+
+.cart-props__info
+	display: flex
+	justify-content: space-between
+.cart-props__price-old
+	font-size: 16px
+.cart-props__price
+	font-family: "Exo2-Bold"
+	font-size: 16px
+	line-height: 1.2
+	span
+		font-size: 30px
+
+.b-cart
+	margin-bottom: 40px
+	padding: 20px 25px 0
+	border: 1px solid #D7F6FF
+
+.b-cart-filter
+	display: flex
+	margin-bottom: 20px
+input.b-cart-filter__input
+	padding: 6px 9px
+	max-width: 100%
+	width: 340px
+	color: #363636
+	font-family: "Exo2-Regular"
+	border: none
+	background: #D7F6FF
+	transition: 0.3s
+.b-cart-filter__submit
+	display: inline-flex
+	position: relative
+	justify-content: center
+	align-items: center
+	border: none
+	outline: none
+	background-color: #D7F6FF
+	cursor: pointer
+	z-index: 1
+	transition: 0.3s
+	&:hover
+		opacity: 0.8
+	&:focus
+		outline: none
+
+.b-cart-amount
+	font-size: 16px
+	font-family: "Exo2-Bold"
+
+.b-cart-table
+	width: 100%
+	td
+		padding: 20px
+		border-top: 1px solid #D7F6FF
+		&:first-child,
+		&:last-child
+			padding: 20px 0
+
+.b-cart-table-product-td
+	width: 400px
+	max-width: 100%
+
+.b-cart-table-product
+	display: flex
+	align-items: flex-start
+.b-cart-table-product__img
+	margin-right: 20px
+
+.b-cart-price
+	text-align: center
+.b-cart-table-price__current
+	font-size: 18px
+	font-family: "Exo2-Bold"
+	color: #1b1b1b
+.b-cart-table-price__old
+	margin-left: 20px
+	font-size: 14px
+	font-family: "Exo2-Bold"
+	color: #9c9c9c
+
+.b-cart-table-amount
+	display: flex
+	align-items: center
+	justify-content: center
+.b-cart-table-amount__dec,
+.b-cart-table-amount__inc
+	background: none
+	border: none
+	outline: none
+	font-family: "Exo2-Bold"
+	font-size: 16px
+	cursor: pointer
+	&:focus
+		outline: none
+input.b-cart-table-amount__val
+	padding: 3px 4px
+	border: none
+	width: 40px
+	border-radius: 6px
+	text-align: center
+	color: #363636
+	background: #e0f6ff
+
+.b-cart-table-remove
+	display: flex
+	padding: 4px 12px
+	margin: auto
+	border: 1px solid rgb(220, 220, 220)
+	border-radius: 6px
+	font-size: 12px
+	color: #b3b3b3
+	background: none
+	outline: none
+	cursor: pointer
+	transition: 0.3s
+	&:hover
+		color: #363636
+		border-color: #363636
+
 
 @import "media" // Always at the end

@@ -115,6 +115,18 @@
 	.b-my-order-path__body_btn
 		flex: 1 1 auto
 		margin: 10px 0 0 0
+	.b-cart-table
+		tr
+			display: flex
+			flex-wrap: wrap
+			align-items: center
+			& + tr
+				border-top: 1px solid #D7F6FF
+		td
+			border-top: none
+			flex: 0 0 50%
+	.cart-props-form
+		margin-bottom: 20px
 
 // ≥768px
 +media-breakpoint-down(sm)
@@ -197,6 +209,29 @@
 		margin: 0px 0 10px
 		& + .b-my-order__bottom_link
 			margin-left: 0px
+	.b-my-order-wrap
+		padding: 15px 20px
+	.b-cart-table
+		td
+			flex: 0 0 100%
+			& + td,
+			& + td:last-child
+				padding-top: 0
+	.b-cart-table-product-td
+		width: 100%
+	.b-cart-table-product
+		flex-direction: column
+		align-items: center
+	.b-cart-table-product__img
+		margin: 0 0 15px 0
+	input.b-cart-filter__input
+		width: 100%
+	.cart-props__info
+		flex-direction: column
+	.cart-props__price
+		margin-bottom: 20px
+	input.cart-props-form__input
+		max-width: 100%
 
 
 // ≥576px

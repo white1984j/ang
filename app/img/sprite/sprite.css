@@ -16,6 +16,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.icon-arrow-black {
+  background-image: url(sprite.png);
+  background-position: -148px -38px;
+  width: 8px;
+  height: 14px;
+}
 .icon-arrow-to-top {
   background-image: url(sprite.png);
   background-position: 0px 0px;
@@ -30,9 +36,15 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-checked {
   background-image: url(sprite.png);
-  background-position: -122px -81px;
+  background-position: -134px -81px;
   width: 11px;
   height: 9px;
+}
+.icon-close-black {
+  background-image: url(sprite.png);
+  background-position: -122px -81px;
+  width: 12px;
+  height: 12px;
 }
 .icon-currents-orders {
   background-image: url(sprite.png);
