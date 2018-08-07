@@ -52,6 +52,7 @@ gulp.task('js', function() {
 		'app/libs/slick/slick.min.js',
 		'app/libs/magnific-popup/jquery.magnific-popup.min.js',
 		'app/libs/noUiSlider/nouislider.min.js',
+		'app/libs/sticky-kit/jquery.sticky-kit.min.js',
 		// 'app/libs/masonry/masonry.pkgd.min.js',
 		'app/js/common.js', // Always at the end
 		])

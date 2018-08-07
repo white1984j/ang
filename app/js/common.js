@@ -167,4 +167,29 @@ $(function() {
 			$val.val( Number($val.val()) - 1 );
 	});
 
+
+	$('.b-ordering-path__btn--next').on('click', function() {
+		$wrap = $(this).closest('.b-ordering');
+		$wrap
+			.find('.b-ordering__header').slideDown('fast').end()
+			.find('.b-ordering__body').slideUp('fast').end()
+			.next('.b-ordering')
+			.find('.b-ordering__header').slideUp('fast')
+			.next('.b-ordering__body')
+			.slideDown('fast', function() {
+				 $("html, body").animate({ scrollTop: $wrap.next('.b-ordering').offset().top - 80 }, 600);
+			});
+	});
+	$('.b-ordering-path__btn--prev').on('click', function() {
+		$wrap = $(this).closest('.b-ordering');
+		$wrap
+			.find('.b-ordering__header').slideDown('fast').end()
+			.find('.b-ordering__body').slideUp('fast').end()
+			.prev('.b-ordering').find('.b-ordering__body').slideDown('fast', function() {
+				$("html, body").animate({ scrollTop: $wrap.prev('.b-ordering').offset().top - 80 }, 600);
+			});
+	});
+
+
+
 });
