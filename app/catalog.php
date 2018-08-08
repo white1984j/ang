@@ -149,7 +149,7 @@
           <div class="b-sidebar-path">
             <div class="b-sidebar-path-head b-sidebar-path-head--active">
               <div class="b-sidebar-path-head__txt">
-                <span>Ширина:</span>
+                <span>Ширина дивана:</span>
               </div>
               <div class="b-sidebar-path-head__triangle"></div>
             </div>
