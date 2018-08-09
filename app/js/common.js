@@ -155,6 +155,29 @@ $(function() {
 		e.preventDefault();
 		$('html,body').animate({ scrollTop: 0 }, 'slow');
 	})
+
+	// detail-colors
+
+	$('.detail__selection-colors-item').on('click', function(e) {
+		$('.detail__selection-colors-item').removeClass('active');
+		$(this).addClass('active');
+		var bigImageColor = $(this).find('img').attr('data-bigsrc');
+		$('.detail__selection-image > img').attr('src', bigImageColor); 
+	});
+
+
+	$('.detail__selection-rotate-item').on('click', function(e) {
+		$('.detail__selection-rotate-item').removeClass('active');
+		$(this).addClass('active');
+		var bigImageRotate = $(this).find('img').attr('data-bigsrc');
+		$('.detail__selection-image > img').attr('src', bigImageRotate); 
+	});
+
+	$('.detail__comments-slider').slick({
+		slidesToShow: 1,
+		prevArrow: $('.detail__slider-arrow-left'),
+		nextArrow: $('.detail__slider-arrow-right')
+	})
 	
 	
 	$('.b-cart-table-amount__inc').on("click", function() {
