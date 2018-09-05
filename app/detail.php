@@ -52,15 +52,21 @@
               <div class="detail__selection-image">
                 <img src="img/detail-sofa.png" alt="sofa">
                 <div class="cb__banners">
+                  <div class="cb__banner-item cb__banner-item-hit">
+                    HIT
+                  </div>
                   <div class="cb__banner-item cb__banner-item-act">
                     -23%
-                   </div>
+                  </div>
                   <div class="cb__banner-item cb__banner-item-new">
                     Доставка без предоплаты
-                   </div>
-                   <div class="cb__banner-item cb__banner-item-credit">
+                  </div>
+                  <div class="cb__banner-item cb__banner-item-credit">
                     Рассрочка 0-0-10
-                   </div>
+                  </div>
+                  <div class="cb__banner-item cb__banner-item-only-shop">
+                    Только в интернет-магазине
+                  </div>
                 </div>
               </div>
               <div class="detail__selection-rotate">
